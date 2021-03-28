@@ -1,3 +1,23 @@
+.buttons{
+    background-color: darkblue;
+    justify-content: space-evenly;
+}
+button{
+    font-size: 20px;
+    color:white;
+    background-color: darkgray;
+    
+}
+.title{
+
+    background-color:darkblue;
+    font-size: 35px;
+    font-style:oblique;
+    font-weight: bolder;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 h2{
     font-style: italic;
