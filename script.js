@@ -84,3 +84,69 @@ personalSkills.innerHTML =
 `
 
 document.getElementsByClassName("column3")[0].appendChild(personalSkills);
+
+const button1 = document.getElementById("employment-summary")
+
+function goEmploymentSummary()  { 
+
+    window.scrollTo(0,100);
+}
+button1.addEventListener('click',goEmploymentSummary)
+
+const button2 = document.getElementById("education")
+
+function goEducation()  { 
+
+    window.scrollTo(0,500);
+}
+button2.addEventListener('click',goEducation)
+
+const button3 = document.getElementById("languages")
+
+function goLanguage()  { 
+
+    window.scrollTo(0,900);
+}
+button3.addEventListener('click',goLanguage)
+
+const button4 = document.getElementById("technical-expertise")
+
+function goTechnicalExpertise()  { 
+
+    window.scrollTo(0,900);
+}
+button4.addEventListener('click',goTechnicalExpertise)
+
+const button5 = document.getElementById("photo-profile")
+
+function goPhotoProfile()  { 
+
+    window.scrollTo(0,100);
+}
+button5.addEventListener('click',goPhotoProfile)
+
+const button6 = document.getElementById("personal-profile")
+
+function goPersonalProfile()  { 
+
+    window.scrollTo(0,250);
+}
+button6.addEventListener('click',goPersonalProfile)
+
+const button7 = document.getElementById("personal-skills")
+
+function goPersonalSkills()  { 
+
+    window.scrollTo(0,400);
+}
+button7.addEventListener('click',goPersonalSkills)
+
+const button8 = document.getElementById("contact-info")
+
+function goContactInfo()  { 
+
+    window.scrollTo(0,700);
+}
+button8.addEventListener('click',goContactInfo)
+
+

@@ -139,11 +139,11 @@ h2{
     color: green;
     justify-content: right;
     width: 100%;
-    min-height: 495px;
+    min-height: 445px;
     max-height:948px;
     font-size:25px;
     font-weight: bold;
 }
 img {
- height: 100px;
+ height: 150px;
 }
