@@ -14,19 +14,19 @@
     background-color: darkblue;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content:right;
     width:100%;
-    height:700px;
+    height:100%;
     font-size:25px;
     font-weight: bold;
 }
 .block2 {
     background-color: darkblue;
     display: flex;
+    justify-content:right;
     color:white;
-    justify-content: center;
     width: 100%;
-    height:700px;
+    height:100%;
     font-size:25px;
     font-weight: bold;
 }
@@ -34,9 +34,9 @@
     background-color: darkblue;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
-    height:700px;
+    height:100%;
     font-size:25px;
     font-weight: bold;
 }
@@ -44,19 +44,9 @@
     background-color: darkblue;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
-    height:700px;
-    font-size:25px;
-    font-weight: bold;
-}
-.block5 {
-    background-color: darkblue;
-    display: flex;
-    color:white;
-    justify-content: center;
-    width: 100%;
-    height:700px;
+    height:100%;
     font-size:25px;
     font-weight: bold;
 }
@@ -75,7 +65,7 @@
     background-color: black;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
     height:300px;
     font-size:25px;
@@ -85,9 +75,9 @@
     background-color: black;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
-    height:700px;
+    height:100%;
     font-size:25px;
     font-weight: bold;
 }
@@ -95,9 +85,9 @@
     background-color: black;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
-    height:700px;
+    height:100%;
     font-size:25px;
     font-weight: bold;
 }
@@ -105,9 +95,9 @@
     background-color: black;
     display: flex;
     color:white;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
-    height:700px;
+    height:200%;
     font-size:25px;
     font-weight: bold;
 }
