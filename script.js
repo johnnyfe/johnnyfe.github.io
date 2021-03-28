@@ -64,7 +64,7 @@ personalProfile.className = 'Personal Profile';
 personalProfile.innerHTML = 
 `
 <h2>Personal Profile</h2>
-<p> I'm a creative and motivated person who enjoy to learn a new skills everyday and who is willing to learn from others the best of everybody.</p>
+<li> I'm a creative and motivated person who enjoy to learn a new skills everyday and who is willing to learn from others the best of everybody.</li>
 `
 
 document.getElementsByClassName("column2")[0].appendChild(personalProfile);
