@@ -21,5 +21,15 @@ employmentSummary.innerHTML =
 
 document.getElementsByClassName("block1")[0].appendChild(employmentSummary);
 
+const education = document.createElement('div');
+education.className = 'Education';
+education.innerHTML = 
+`
+    <p>Bucks County Community College </p>
+    <small>Associate Degree in engineering | January 2021 </small>
+    <p>Flatiron School<p>
+    <small>Software engineering | Current <small>
+`
 
+document.getElementsByClassName("block2")[0].appendChild(education);
 
