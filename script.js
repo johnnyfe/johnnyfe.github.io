@@ -6,17 +6,17 @@ employmentSummary.innerHTML =
     <p>Amazon Robotics Associate </p>
     <small>Amazon Warehouse Robbinsville NJ | September
     2018 - present</small>
-    <ul>Supervision of floor health.</ul>
-    <ul>Reboot and control amazon robots.</ul>
-    <ul>Inventory restoration and updating lost articles.</ul>
-    <ul>Reports of possible items damage or lost.</ul>
-    <ul>Reports in inventory updates.</ul>
+    <li>Supervision of floor health.</li>
+    <li>Reboot and control amazon robots.</li>
+    <li>Inventory restoration and updating lost articles.</li>
+    <li>Reports of possible items damage or lost.</li>
+    <li>Reports in inventory updates.</li>
     <p>Temporal Process Assitant(PG)<p>
     <small>Amazon Warehouse Robbinsville NJ | May 2018 September
     2018 - present<small>
-    <ul>Supervision of costumer orders</ul>
-    <ul>Analysis of floor productivity</ul>
-    <ul>Created detailed reports for manager</ul>
+    <li>Supervision of costumer orders</li>
+    <li>Analysis of floor productivity</li>
+    <li>Created detailed reports for manager</li>
 `
 
 document.getElementsByClassName("block1")[0].appendChild(employmentSummary);
@@ -33,3 +33,12 @@ education.innerHTML =
 
 document.getElementsByClassName("block2")[0].appendChild(education);
 
+const language = document.createElement('div');
+language.className = 'language';
+language.innerHTML = 
+`
+    <p>English</p>
+    <p>Spanish<p>
+`
+
+document.getElementsByClassName("block3")[0].appendChild(language);
