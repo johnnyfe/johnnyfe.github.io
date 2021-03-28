@@ -26,9 +26,9 @@ education.className = 'Education';
 education.innerHTML = 
 `
     <p>Bucks County Community College </p>
-    <small>Associate Degree in engineering | January 2021 </small>
+    <li>Associate Degree in engineering | January 2021 </li>
     <p>Flatiron School<p>
-    <small>Software engineering | Current <small>
+    <li>Software engineering | Current </li>
 `
 
 document.getElementsByClassName("block2")[0].appendChild(education);
@@ -37,8 +37,20 @@ const language = document.createElement('div');
 language.className = 'language';
 language.innerHTML = 
 `
-    <p>English</p>
-    <p>Spanish<p>
+    <li>English</li>
+    <li>Spanish<li>
 `
 
 document.getElementsByClassName("block3")[0].appendChild(language);
+
+const technicalExpertise = document.createElement('div');
+technicalExpertise.className = 'Technical Expertise';
+technicalExpertise.innerHTML = 
+`
+<li>Excellent computer skills</li>
+<li>Domain in Microsoft Word, Excel, Power Point, Outlook, and Project.</li>
+<li>Basic programming knowledge: Java, Javascript, html and css.</li>
+<li>Knowledge in PC installation, formatting, windows installation and BIOS optimization.</li>
+`
+
+document.getElementsByClassName("block4")[0].appendChild(technicalExpertise);
